@@ -12,7 +12,7 @@
 		F3BDCB3921ED89F9007D5EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BDCB3821ED89F9007D5EEC /* Assets.xcassets */; };
 		F3BDCB3C21ED89F9007D5EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BDCB3A21ED89F9007D5EEC /* Main.storyboard */; };
 		F3BDCB4521ED8A3A007D5EEC /* DLAppIconGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BDCB4421ED8A3A007D5EEC /* DLAppIconGenerator.swift */; };
-		F3BDCB4721ED8A6A007D5EEC /* icon.json in Resources */ = {isa = PBXBuildFile; fileRef = F3BDCB4621ED8A6A007D5EEC /* icon.json */; };
+		F3BDCBAF21EDCFC1007D5EEC /* icon.json in Resources */ = {isa = PBXBuildFile; fileRef = F3BDCBAE21EDCFC1007D5EEC /* icon.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +24,7 @@
 		F3BDCB3D21ED89F9007D5EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3BDCB3E21ED89F9007D5EEC /* DLAppIconGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DLAppIconGenerator.entitlements; sourceTree = "<group>"; };
 		F3BDCB4421ED8A3A007D5EEC /* DLAppIconGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLAppIconGenerator.swift; sourceTree = "<group>"; };
-		F3BDCB4621ED8A6A007D5EEC /* icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icon.json; sourceTree = "<group>"; };
+		F3BDCBAE21EDCFC1007D5EEC /* icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = icon.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 				F3BDCB3421ED89F8007D5EEC /* AppDelegate.swift */,
 				F3BDCB3621ED89F8007D5EEC /* ViewController.swift */,
 				F3BDCB4421ED8A3A007D5EEC /* DLAppIconGenerator.swift */,
-				F3BDCB4621ED8A6A007D5EEC /* icon.json */,
+				F3BDCBAE21EDCFC1007D5EEC /* icon.json */,
 				F3BDCB3821ED89F9007D5EEC /* Assets.xcassets */,
 				F3BDCB3A21ED89F9007D5EEC /* Main.storyboard */,
 				F3BDCB3D21ED89F9007D5EEC /* Info.plist */,
@@ -101,6 +101,11 @@
 				TargetAttributes = {
 					F3BDCB3021ED89F8007D5EEC = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,7 +134,7 @@
 			files = (
 				F3BDCB3921ED89F9007D5EEC /* Assets.xcassets in Resources */,
 				F3BDCB3C21ED89F9007D5EEC /* Main.storyboard in Resources */,
-				F3BDCB4721ED8A6A007D5EEC /* icon.json in Resources */,
+				F3BDCBAF21EDCFC1007D5EEC /* icon.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
